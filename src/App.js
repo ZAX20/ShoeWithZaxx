@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import AdidasSection from "./AdidasSection";
+import ConverseSection from "./ConverseSection";
+import Header from "./Header";
+import JordanSection from "./JordanSection";
+import NikeSection from "./NikeSection";
+import VansSection from "./VansSection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <Header />
+        <NikeSection />
+        <AdidasSection />
+        <JordanSection />
+        <VansSection />
+        <ConverseSection />
+      </div>
   );
 }
 
