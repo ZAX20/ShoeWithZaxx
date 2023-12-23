@@ -1,7 +1,7 @@
 import React from "react";
 
 function NikeSection() {
-    return <div className="min-w-full min-h-screen pt-20 lg:pt-[110px] px-4">
+    return <div id="nikeSection" className="min-w-full min-h-screen pt-20 lg:pt-[110px] px-4">
         <div>
             <div
                 class="absolute h-6 top-2/3 left-1/2 -translate-y-1/2 -translate-x-1/2 shadow-[0_-50px_220px_200px] shadow-stone-300 -z-10 rounded-full">

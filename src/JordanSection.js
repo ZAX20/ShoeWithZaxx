@@ -1,5 +1,5 @@
 function JordanSection() {
-    return <div className="relative w-full lg:max-w-7xl mx-auto h-screen mt-8 border-t border-stone-300">
+    return <div id="jordanSection" className="relative w-full lg:max-w-7xl mx-auto h-screen mt-8 border-t border-stone-300">
         <div>
             <div
                 class="absolute h-6 top-2/3 left-1/2 -translate-y-2/3 -translate-x-1/2 shadow-[0_-50px_220px_200px] shadow-stone-200 -z-10 rounded-full">
