@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 
 function Header() {
-    return <nav className="min-w-full bg-stone-300 shadow-lg shadow-red-300 py-2 px-4 md:px-10 flex justify-between items-center fixed z-50 border-b border-stone-400">
+    return <nav className="min-w-full bg-stone-300 shadow-lg shadow-stone-400 py-2 px-4 md:px-10 flex justify-between items-center fixed z-50 border-b border-stone-400">
         <div className="group py-0.5 px-1 cursor-pointer">
             <h3 className="font-bold text-primary-100 text-center select-none cursor-pointer tracking-wide hover:text-third-100 group-hover:-translate-y-1 duration-500">ShoeWithZaxx</h3>
         </div>

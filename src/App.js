@@ -6,6 +6,7 @@ import Header from "./Header";
 import JordanSection from "./JordanSection";
 import NikeSection from "./NikeSection";
 import VansSection from "./VansSection";
+import 'swiper/css';
 
 function App() {
   return (
